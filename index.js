@@ -4,5 +4,5 @@ const PORT = process.env.PORT || 5000
 
 const app = express();
 
-app.use(express.static(__dirname + '/docs/.vuepress/dist/'));
+app.use(express.static(__dirname));
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

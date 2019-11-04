@@ -3,3 +3,11 @@ node_js:
   - 10.16.3
 script:
   - "npm run docs:build"
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "XlZNbHZFuxcnS52oYPfq/xjY8U8Hs2Ih2sUco4J8RefkHklI25rHXiXzAMjsgF8PNmDvB1edfcCQI59mG/WvkILjWXxu60S79iOuJ0m6biyFSXUbYsa9KTD2W9PSel3PU7Z3XLix7TmBvNO7SSkLVYZkbySjHG1cfYswsWQBG1T9L+HenQug+tQBP+y6g5SlDecBws8c2SaE+tgJenH8mGf3/JeG+njLOCVvL/1ASV/YJz+LXE2lrijH3BPnOGC3+8KJ0TvW4+BIw5Up1+HogF06g6J6xQGsyHrptxgDXn98zg0tB4UlByf+Ln4/LzqStSCuy3glBaF/stA+6As9UxFZpGyUXn/sxuhMxsK56BhLOhUdSVLGiXK1sAWZ4mEOLxynD/1RY0chNgb8yA+T2nA+cDdwJ22N7c8gGXjgVTW1vV7EPJ0VMykooBEkTxegFUY9H4gcinyYmcNCUkTgF6aGbMEj4MkeOnrsDXUGdygrlr1dbBAwY6loFEZvJ1mnQPJ6GMV2ysIZBeRxTyJtrSRoQcbUnFi2cQCwmZh6YeOfTWbjvb3R5Q9hxVolVgoBUJg1y5qfTBBKg66BZUQmFuhO7vmyAWbclfLRf3QmT+TVyQXFN4YazfWiGsI2GgttEbNw5ggOy4xCmcowrB8dIC4l6zgn+vr7+rQKCpNy1wI="
+  app: hf-docs
+  on:
+    repo: umbertobomba/hf-docs

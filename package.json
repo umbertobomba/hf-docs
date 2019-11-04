@@ -17,7 +17,10 @@
     "url": "https://github.com/umbertobomba/hf-docs/issues"
   },
   "homepage": "https://github.com/umbertobomba/hf-docs#readme",
-  "dependencies": {
+  "devDependencies": {
     "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }

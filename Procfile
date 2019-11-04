@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 docs/.vuepress/dist
+web: node index.js

@@ -1,1 +1,0 @@
-<?php include_once("./docs/.vuepress/dist/index.html"); ?>
